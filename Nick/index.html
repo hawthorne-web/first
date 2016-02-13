@@ -17,11 +17,24 @@
   }
  
   </style>
-
+function change(){
+    
+   var myNewTitle = document.getElementById('myTextField').value;
+   if( myNewTitle.length==0 ){
+       alert('Write Some real Text please.');
+   return;
+   }
+   
+   var title = document.getElementById('title');
+   title.innerHTML = myNewTitle;
+    
+}
 
 </head>
 
 <body>
+<input type="text" id="myTextField"/>
+<input type="submit" id="byBtn" value="Change" onclick="change()"/>
 <h1>Nick's Website</h1>
 <h2>This is my first potato.</h2>
 <p>
@@ -32,6 +45,7 @@ I have a very big juicey hot dog.
 <h2 class="justin">Do not vote for anyone only vote fr yourself!!!!</h2><br>
 <h1 class="justin">Your vote DOES NOT matter!!!!!!!!</h1><br>
 <marquee behavior='scroll'>I'm moving!</marquee> 
+<h3>This is staggering beauty</h3>
 <iframe src="http://www.staggeringbeauty.com/" style="border: 1px inset #ddd" width="498" height="598"></iframe>
 <marquee behavior="scroll">Do not eat my oranges I like oranges
 </marquee>
