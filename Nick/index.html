@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 
 <head>
-<title>Nick's Website</title>
-<style> 
-    body {
-	color: purple;
-	text-align: center;
-	font-family:Helvetica;
-	font-style: italic;
-	background-color: orange;
+ <title>Nick's Website</title>
+ <style> 
+     body {
+	  color: purple;
+	  text-align: center;
+	  font-family:Helvetica;
+	  font-style: italic;
+	  background-color: orange;
    .justin {
-   	font-size: 90px;
+   	  font-size: 90px;
   }
   caption {
-  	font-size:90px;
+  	  font-size:90px;
   }
+ .header img { 
+            float: left; 
+            width:100px; 
+            height: 100px 
+ 	
+ } 
+
+ 
+ 
  
   </style>
 <script>
 	function change(){
     
-   var myNewTitle = document.getElementById('myTextField').value;
-   if( myNewTitle.length==0 ){
-       alert('Write Some real Text please.');
+       var myNewTitle = document.getElementById('myTextField').value;
+        if( myNewTitle.length==0 ){
+           alert('Write Some real Text please.');
    return;
    }
    
@@ -36,6 +45,7 @@
 </head>
 
 <body>
+
 <h1 id="title">huhhhhhhhhhhhhhhh!</h1>
 <input type="text" id="myTextField"/>
 <input type="submit" id="byBtn" value="Change" onclick="change()"/>
