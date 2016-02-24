@@ -1,1 +1,6 @@
 <f1> Helloooo </f1>
+<style>
+  body {
+    background-color:Blue; color: white;
+  }
+</style>
