@@ -26,7 +26,24 @@
   .red {
     background-color: red;
   }
+  p.border { 
+    border-style: dotted;
+    border-width: 5px;
+    border-color: red;
+  }
+  #transition {
+    width: 150px;
+    height: 50px;
+    background: teal;
+    transition: width 2s;
+  }
+  #transition:hover {
+    width: 300px;
+  }
 </style>
+
+<div id="transition">Transition Time!</div>
+<p class="border"> A SOLID RED BORDER</p>
 
 <div class="blue">
   THIS IS INSIDE THE DIVIDER
