@@ -26,12 +26,22 @@ Where Do You Wnat To Go?<br>
   background-color: red;
   }
   p.border {
-  border-style: ridge;
+  border-style: dotted;
   border-width: 5px;
   border-color: red;
   }
+  #transition{
+    width: 150px;
+    height: 50px;
+    background: teal;
+    transition: width/height 2s;
+  }
+  #transition:hover {
+      width/height: 300px;
+  }
   </style>
  
+ <div id="transition">Transition Time!</div>
  <p class="border"> A Solid Red Border</p>
   
   <div class="blue">
