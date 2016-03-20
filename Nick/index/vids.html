@@ -28,21 +28,43 @@
 	
 } 
        .nav ul { 
-          clear: both; 
+          	clear: both; 
           } 
        
        .nav li { 
-       list-style-type:none; 
-       display: inline; 
-       padding-left: 5px; 
+       		list-style-type:none; 
+       		display: inline; 
+       		padding-left: 5px; 
        } 
-       .footer { 
-       clear: both; 
+       	.footer { 
+       		clear: both; 
        } 
-   </style>
+   	</style>
+	<script>
+	function change(){
+    
+       var myNewTitle = document.getElementById('myTextField').value;
+        if( myNewTitle.length==0 ){
+           alert('Write Some real Text please.');
+   return;
+   }
+   
+   var title = document.getElementById('title');
+   title.innerHTML = myNewTitle;
+    
+}
+</script>
 </head>
 <body>
+ <div class="header">  
+       <a href="/website/Nick/index.html"><img src="https://s-media-cache-ak0.pinimg.com/236x/13/dc/9a/13dc9a4d6a5485c941c6bf3e020942a3.jpg"/></a>  
+		<a href="index.html">Buisness</a> 
+         	<a href="products.html">Products</a> 
+         	<a href="history.html">My Personal Website</a>
+         	<a href="contactus.html">Contact Us!!!</a> 
 
+ 
+         
 
 
 
